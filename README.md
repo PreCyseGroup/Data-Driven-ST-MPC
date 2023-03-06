@@ -27,7 +27,7 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 and $\mathcal{M}_{AB}$ 
 
-2- run "compute_ROSC_sets.m" for linear system to compute ROSC sets based on all consistent system matrices $\hat{A}, \hat{B}$
+2- run "compute_ROSC_sets.m" for linear system to compute ROSC sets based on all consistent system matrices $\hat{A}_i, \hat{B}_i$
 
 ## Compute model-based and data-driven set-theoretic MPC control 
 
