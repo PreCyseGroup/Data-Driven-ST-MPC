@@ -3,7 +3,7 @@
 This repository contains the codes for "Data-Driven Robust Backward Reachable Sets for Set-Theoretic Model Predictive Control"
 by Mehran Attar and Walter Lucia
 
-### <span style="color:blue">some *blue* text</span>. Problem Statement
+### Problem Statement
 Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear model $x_{k+1} = Ax_k + Bu_k + w_k$ with $x_k \in \mathcal{X} \subset \mathbb{R}^n$ and $u_k \in \mathcal{U}\subset \mathbb{R}^m$ and $w_k \in \mathcal{W} \subset \mathbb{R}^n$, with unknown system matrices $(A,B):$
 
 1. Design a data-driven algorithm computing an inner approximation of the ROSC sets $\mathcal{T}^{j} = {x \in \mathcal{X}: \exists u \in \mathcal{U}: x^+ \in \mathcal{T}^{j-1}, \forall w \in \mathcal{W} \}$
@@ -29,3 +29,9 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 ## Compute model-based and data-driven set-theoretic MPC control 
 
 1- run "compute_ST_MPC.m" to compute ST-MPC control commands and obtain set index membership
+
+
+
+
+
+style="color: red;">text</span>.
