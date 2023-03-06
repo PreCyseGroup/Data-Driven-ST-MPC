@@ -34,4 +34,4 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 
 
-<span style="color:blue"> some text </span>.
+<span style="color: green"> Some green text </span>
