@@ -22,15 +22,15 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 
 ## Compute model-based and data-driven ROSC sets
-1- add "V_AB.mat" from data folder to the Matlab path to load the set of all consistent vertex matrices and system matrices, $\mathcal{V}_{AB}$   
+1- Add "V_AB.mat" from data folder to the Matlab path to load the set of all consistent vertex matrices and system matrices, $\mathcal{V}_{AB}$   
 
 
 and $\mathcal{M}_{AB}$ 
 
-2- run "compute_ROSC_sets.m" for linear system to compute ROSC sets based on all consistent system matrices $\hat{A}_i, \hat{B}_i$
+2- Run "compute_ROSC_sets.m" for linear system to compute ROSC sets based on all consistent system matrices $\hat{A}_i, \hat{B}_i$
 
 ## Compute model-based and data-driven set-theoretic MPC control 
 
-1- run "compute_ST_MPC.m" to compute ST-MPC control commands and obtain set index membership
+1- Run "compute_ST_MPC.m" to compute ST-MPC control commands and obtain set index membership
 
 
