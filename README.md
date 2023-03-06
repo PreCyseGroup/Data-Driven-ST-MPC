@@ -21,5 +21,5 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 3- Add the repo folder and subfolders to the Matlab path.
 
 
-## Compute model0based and data-driven ROSC sets
-1- run compute_ROSC_sets.m for linear system to compute ROSC sets based on matrix zonotope $\mathcal{M}_{AB}$
+## Compute model-based and data-driven ROSC sets
+1- run "compute_ROSC_sets.m" for linear system to compute ROSC sets based on matrix zonotope $\mathcal{M}_{AB}$
