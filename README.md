@@ -22,4 +22,5 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 
 ## Compute model-based and data-driven ROSC sets
-1- run "compute_ROSC_sets.m" for linear system to compute ROSC sets based on matrix zonotope $\mathcal{M}_{AB}$
+1- add "V_AB.mat" to the Matlab path to compute $\mathcal{V}_{AB}$ 
+2- run "compute_ROSC_sets.m" for linear system to compute ROSC sets based on matrix zonotope $\mathcal{M}_{AB}$
