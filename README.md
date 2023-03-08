@@ -10,16 +10,19 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 	
 2. Design a Data-Driven Set-Theoretic MPC (D-ST-MPC) controller for the linear system enjoying the same properties of ST-MPC. 
 
-## Files Description
-1- to compute ROSC sets based on all consistent system matrices $\hat{A}_i, \hat{B}_i$, run "compute_ROSC_sets.m"  
-2- To compute ST-MPC control commands and obtain set index membership, run "compute_ST_MPC.m". 
-
 ## Running
 1- Download [CORA 2022](https://tumcps.github.io/CORA/) and [MPT3](https://www.mpt3.org/) version 2022
 
 2- Add CORA and MPT folder and subfolders to the Matlab path.
 
 3- Add the repo folder and subfolders to the Matlab path.
+
+## Files Description
+1- To compute ROSC sets based on all consistent system matrices $\hat{A}_i, \hat{B}_i$, run "compute_ROSC_sets.m"  
+
+2- To compute ST-MPC control commands and obtain set index membership, run "compute_ST_MPC.m". 
+
+
 
 
 
