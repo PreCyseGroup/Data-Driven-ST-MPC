@@ -28,6 +28,12 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 - "commandcalculation.m": computes the model-based ST-MPC control commands
 - "compute_intersec.m": computes the intersection of polyhedrons
 - "compute_presets_approx.m": computes the data-driven ROSC sets in the extended space of $(x,u)$.
+- "indx_finder.m": computes the set memebership index of an state for the model-based ROSC sets. 
+- "one_step_ctrl.m" computes the data-driven ST-MPC control commands. 
+- "poly_approx.m": computes a zonotopic inner approximation of a polyhedron 
+- "set_index.m": computes the set memebership index of an state for the data-driven ROSC sets. 
+
+
 
 Results are availble under the images and videos folders. 
 
