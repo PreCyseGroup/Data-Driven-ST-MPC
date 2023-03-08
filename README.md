@@ -14,7 +14,7 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 
 ## Running
-1- Download [CORA 2022](https://tumcps.github.io/CORA/) and [MPT3](https://www.mpt3.org/)
+1- Download [CORA 2022](https://tumcps.github.io/CORA/) and [MPT3](https://www.mpt3.org/) version 2022
 
 2- Add CORA and MPT folder and subfolders to the Matlab path.
 
