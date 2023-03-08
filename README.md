@@ -24,7 +24,7 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 #### Function Descriptions
 - "compute_AB.m": computes all possible system matrices that are consistent with the data
-- "computeRPI.m": computes a model-based RCI set based on the proposed method in 
+- "computeRPI.m": computes a model-based RCI set based on the proposed method in **"Invariant approximations of the minimal robust positively invariant set" by Rokovic**
 4- To compute the model-based RCI set, run
 
 
