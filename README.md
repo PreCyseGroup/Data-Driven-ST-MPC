@@ -23,6 +23,6 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 2- To compute ST-MPC control commands and obtain set index membership, run "compute_ST_MPC.m". 
 
 
-Results are availble under the images folder 
+Results are availble under the images and videos folders. 
 
 
