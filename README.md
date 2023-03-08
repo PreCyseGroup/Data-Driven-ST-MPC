@@ -22,6 +22,12 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 2- To compute ST-MPC control commands and obtain set index membership, run "compute_ST_MPC.m". 
 
+#### Function Descriptions
+3- To compute all possible system matrices that are consistent with the data, run "compute_AB.m"
+
+4- To compute the model-based RCI set, run
+
+
 
 Results are availble under the images and videos folders. 
 
