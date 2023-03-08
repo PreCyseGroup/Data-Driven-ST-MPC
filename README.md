@@ -25,9 +25,9 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 #### Function Descriptions
 - "compute_AB.m": computes all possible system matrices that are consistent with the data
 - "computeRPI.m": computes a model-based RCI set based on the proposed method in **"Invariant approximations of the minimal robust positively invariant set" by Rokovic**
-4- To compute the model-based RCI set, run
-
-
+- "commandcalculation.m": computes the model-based ST-MPC control commands
+- "compute_intersec.m": computes the intersection of polyhedrons
+- "compute_presets_approx.m": computes the data-driven ROSC sets in the extended space of $(x,u)$.
 
 Results are availble under the images and videos folders. 
 
