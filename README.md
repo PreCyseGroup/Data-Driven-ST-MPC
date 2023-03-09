@@ -38,6 +38,6 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 Run "animated_test.m"
 
 ## Videos
-Check [PreCyse Research Group Youtube channel](https://www.youtube.com/@precysegroup9944)
+Check [PreCyse Research Group Youtube channel](https://www.youtube.com/watch?v=BQ3rUl_VqJs)
 
 
