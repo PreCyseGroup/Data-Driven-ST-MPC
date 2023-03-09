@@ -35,7 +35,9 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 
 ## Demo
+Run "animated_test.m"
 
-Results are availble under the images and videos folders. 
+## Videos
+Check [PreCyse Research Group Youtube channel](https://www.youtube.com/@precysegroup9944)
 
 
