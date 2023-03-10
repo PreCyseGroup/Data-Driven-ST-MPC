@@ -41,6 +41,6 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 Run "animated_test.m"
 
 ## Videos
-Check [Youtube link](https://www.youtube.com/watch?v=BQ3rUl_VqJs)
+[Youtube link](https://www.youtube.com/watch?v=BQ3rUl_VqJs)
 
 
