@@ -1,7 +1,11 @@
 # Data-Driven Set-Theoretic Model Predictive Control
 
 This repository contains the codes for "Data-Driven Robust Backward Reachable Sets for Set-Theoretic Model Predictive Control"
+
 by [Mehran Attar](https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en) and [Walter Lucia](https://users.encs.concordia.ca/~wlucia/index.html) jointly submitted to IEEE Control Systems Letters (L-CSS) and IEEE Conference on Decision and Control (CDC) 
+[arXiv pre-print link](https://arxiv.org/abs/2303.04749)
+
+by [Mehran Attar](https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en) and [Walter Lucia](https://users.encs.concordia.ca/~wlucia/index.html), jointly submitted to IEEE Control Systems Letters (L-CSS) and IEEE Conference on Decision and Control (CDC) 
 [arXiv pre-print link](https://arxiv.org/abs/2303.04749)
 
 
@@ -13,9 +17,9 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 2. Design a Data-Driven Set-Theoretic MPC (D-ST-MPC) controller for the linear system enjoying the same properties of ST-MPC. 
 
 ## Running
-1- Download [CORA 2022](https://tumcps.github.io/CORA/) and [MPT3](https://www.mpt3.org/) version 2022
+1- Download [CORA release 2022](https://tumcps.github.io/CORA/) and [MPT3 release 2022](https://www.mpt3.org/) 
 
-2- Add CORA and MPT folder and subfolders to the Matlab path.
+2- Add CORA and MPT folder and subfolders to the Matlab (in this work, [MATLAB R2021-a has been used](https://www.mathworks.com/products/new_products/release2021a.html)) path.
 
 3- Add the repo folder and subfolders to the Matlab path.
 
