@@ -12,9 +12,9 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 2. Design a Data-Driven Set-Theoretic MPC (D-ST-MPC) controller for the linear system enjoying the same properties of ST-MPC. 
 
 ## Running
-1- Download [CORA 2022](https://tumcps.github.io/CORA/) and [MPT3](https://www.mpt3.org/) version 2022
+1- Download [CORA release 2022](https://tumcps.github.io/CORA/) and [MPT3 release 2022](https://www.mpt3.org/) 
 
-2- Add CORA and MPT folder and subfolders to the Matlab path.
+2- Add CORA and MPT folder and subfolders to the Matlab (in this work, MATLAB R2021-a has been used) path.
 
 3- Add the repo folder and subfolders to the Matlab path.
 
