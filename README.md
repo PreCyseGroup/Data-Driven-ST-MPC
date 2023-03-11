@@ -1,8 +1,6 @@
 # Data-Driven Set-Theoretic Model Predictive Control
 
-This repository contains the codes for "Data-Driven Robust Backward Reachable Sets for Set-Theoretic Model Predictive Control"
-
-by [Mehran Attar](https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en) and [Walter Lucia](https://users.encs.concordia.ca/~wlucia/index.html) jointly submitted to IEEE Control Systems Letters (L-CSS) and IEEE Conference on Decision and Control (CDC) 
+This repository contains the codes for "Data-Driven Robust Backward Reachable Sets for Set-Theoretic Model Predictive Control" by [Mehran Attar](https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en) and [Walter Lucia](https://users.encs.concordia.ca/~wlucia/index.html) jointly submitted to IEEE Control Systems Letters (L-CSS) and IEEE Conference on Decision and Control (CDC) 
 [arXiv pre-print link](https://arxiv.org/abs/2303.04749)
 
 
@@ -27,7 +25,7 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 #### Function Descriptions
 - "compute_AB.m": computes all possible system matrices that are consistent with the data
-- "computeRPI.m": computes a model-based RCI set based on the proposed method in **"Invariant approximations of the minimal robust positively invariant set" by Rokovic**
+- "computeRPI.m": computes a model-based RCI set based on the proposed method in **"Invariant approximations of the minimal robust positively invariant set", by Rakovic et al.
 - "commandcalculation.m": computes the model-based ST-MPC control commands
 - "compute_intersec.m": computes the intersection of polyhedrons
 - "compute_presets_approx.m": computes the data-driven ROSC sets in the extended space of $(x,u)$.
