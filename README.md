@@ -8,7 +8,7 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 
 1. Design a data-driven algorithm computing an inner approximation of the ROSC sets $\mathcal{T}^{j} = \lbrace x \in \mathcal{X}: \exists u \in \mathcal{U}: x^+ \in \mathcal{T}^{j-1}, \forall w \in \mathcal{W} \rbrace$
 	
-2. Design a Data-Driven Set-Theoretic MPC (D-ST-MPC) controller for the linear system enjoying the same properties of ST-MPC. 
+2. Design a Data-Driven Set-Theoretic MPC (D-ST-MPC) controller for the linear system enjoying the same properties of [ST-MPC](https://www.sciencedirect.com/science/article/pii/S0005109808003014?casa_token=n_C40ZvVjWEAAAAA:y8PyF290r0VL7DdULvbDI1oRdR9I1yO__-ag8JSzWvxPO3AFZTa10AtTl6NMu552nhrUk4ZV). 
 
 ## Running
 1- Download [CORA release 2022](https://tumcps.github.io/CORA/) and [MPT3 release 2022](https://www.mpt3.org/) 
