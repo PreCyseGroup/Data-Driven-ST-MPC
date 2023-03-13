@@ -6,7 +6,7 @@ This repository contains the codes for "Data-Driven Robust Backward Reachable Se
 ### Problem Statement
 Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear model $x_{k+1} = Ax_k + Bu_k + w_k$ with $x_k \in \mathcal{X} \subset \mathbb{R}^n$ and $u_k \in \mathcal{U}\subset \mathbb{R}^m$ and $w_k \in \mathcal{W} \subset \mathbb{R}^n$, with unknown system matrices $(A,B):$
 
-1. Design a data-driven algorithm computing an inner approximation of the ROSC sets $\mathcal{T}^{j} = set of x \in \mathcal{X}: \exists u \in \mathcal{U}: x^+ \in \mathcal{T}^{j-1}, \forall w \in \mathcal{W}$
+1. Design a data-driven algorithm computing an inner approximation of the ROSC sets $\mathcal{T}^{j} = \left\{x \in \mathcal{X}: \exists u \in \mathcal{U}: x^+ \in \mathcal{T}^{j-1}, \forall w \in \mathcal{W}\right\}$
 	
 2. Design a Data-Driven Set-Theoretic MPC (D-ST-MPC) controller for the linear system enjoying the same properties of ST-MPC. 
 
