@@ -1,8 +1,8 @@
 
 % Author:       Mehran Attar
 % Written:      08-March-2023
-% Last update:
-% Last revision: 29-March-2023
+% Last update:  13-May-2023
+% Last revision: 13-May-2023
 
 %------------- BEGIN CODE --------------
 
@@ -73,12 +73,18 @@ model_traj_x1(1) = x1(1);
 model_traj_x2(1) = x1(2);
 sim_time = 41;
 
+exe_time_model = [];
+exe_time_data = [];
+
 W = zonotope(zeros(2,1), 0.005*eye(2,2));
 while i < sim_time
     W_k = randPoint(W,1,'standard');
     % plot initial state
     hold on
+    tic;
     u1 = one_step_ctrl(1, x1, T_data_aug, index_data(i+1));
+    exe_time_data(i+1) = toc;
+    %
     x1 = A*x1 + B*u1 + W_k;
     u_data(i+1) = u1;
     hand_data_traj = plot(x1(1), x1(2), 'ko', 'MarkerFaceColor', 'k', 'MarkerEdgeColor', 'k','MarkerSize', 3)
@@ -92,7 +98,9 @@ while i < sim_time
         x_next=A*x_curr+B*controlcommand+W_k;
     else
         j = index_model(i+1) - 1;
+        tic;
         [x_next, controlcommand] = model_based_stmpc(x_curr,T{j},A,B,U,W.mptPolytope.P,W_k);
+        exe_time_model(i+1) = toc;
     end
     u_model(i+1) = controlcommand;
     x_curr = x_next;
@@ -217,4 +225,20 @@ ax.XColor = 'k';
 ax.YColor = 'k';
 % set(gcf,'renderer','Painters')
 print -depsc -tiff -r300 -painters ST_MPC_controllable_sets.eps
+
+%% Compute Execution Time for Model-Based and Data-Driven (Online)
+
+model_based_exe_time = 0;
+data_drive_exe_time = 0;
+for i=1:size(exe_time_model)
+   model_based_exe_time = model_based_exe_time + exe_time_model(i);
+end
+
+for i=2:8
+   data_drive_exe_time = data_drive_exe_time + exe_time_data(i);
+end
+
+
+%------------- END OF CODE --------------
+ 
 
