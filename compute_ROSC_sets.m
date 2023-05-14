@@ -1,8 +1,8 @@
 
 % Author:       Mehran Attar
 % Written:      08-March-2023
-% Last update:
-% Last revision:---
+% Last update:  13-May-2023
+% Last revision: 13-May-2023
 
 %------------- BEGIN CODE --------------
 clc
@@ -91,10 +91,13 @@ N = 15;  % number of steps
 T_data{1} = X0;
 T{1} = T0;
 
+tic;
 for step=1:N
     T{step+1} = inv(A)*((T{step} - W.mptPolytope.P) + (-B*U.mptPolytope.P));
 end
+delta_t_model_based = toc;
 
+tic;
 for step=1:N
     T_data{step+1} = compute_intersec(compute_presets_approx(T_data{step}.mptPolytope.P, ...
         W.mptPolytope.P, U.mptPolytope.P, X.mptPolytope.P, A_hat, B_hat));
@@ -103,7 +106,7 @@ for step=1:N
     T_data{step+1} = project(T_data{step+1},[1 2]);
     step
 end
-
+delta_t_data_driven = toc;
 %% Visualization of model-based and data-driven ROSC sets (model-based & data-drive)
 figure;
 
