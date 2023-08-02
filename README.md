@@ -1,6 +1,6 @@
 # Data-Driven Set-Theoretic Model Predictive Control
 
-This repository contains the codes for "Data-Driven Robust Backward Reachable Sets for Set-Theoretic Model Predictive Control" by [Mehran Attar](https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en) and [Walter Lucia](https://users.encs.concordia.ca/~wlucia/index.html) jointly has been accepted to publish in IEEE Control Systems Letters (L-CSS) and IEEE Conference on Decision and Control (CDC) --> [arXiv pre-print link](https://arxiv.org/abs/2303.04749)
+This repository contains the codes for "Data-Driven Robust Backward Reachable Sets for Set-Theoretic Model Predictive Control" by [Mehran Attar](https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en) and [Walter Lucia](https://users.encs.concordia.ca/~wlucia/index.html) jointly has been accepted to publish in IEEE Control Systems Letters (L-CSS) and IEEE Conference on Decision and Control (CDC) --> [IEEE link]([https://arxiv.org/abs/2303.04749](https://ieeexplore.ieee.org/abstract/document/10153604))
 
 
 ### Problem Statement
